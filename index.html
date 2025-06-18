@@ -840,6 +840,21 @@ body {
         width: 100%;
     }
 }
+@media (max-width: 768px) {
+    .window-content {
+        display: none;
+    }
+    
+    .code-window {
+        height: 120px; /* Adjust height to fit just the header */
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .window-header {
+        flex-grow: 1; /* Make header take up remaining space */
+    }
+}
 
 /* About Section Styles */
 .about-section {
@@ -2046,8 +2061,36 @@ body {
                     </div>
                 </div>
             </div>
+            <!-- marina fleet -->
+             <!-- Inside your projects-grid div, add this new project card -->
+<div class="project-card" data-category="web">
+    <div class="project-image">
+        <img src="images/marina-fleet.png" alt="Marina Fleet Project" class="project-img">
+        <div class="project-overlay">
+            <div class="project-badge">HTML • CSS • JavaScript</div>
+            <h3 class="project-title">Marina Fleet</h3>
+            <p class="project-description">Boat rental service website with booking functionality</p>
+            <div class="project-links">
+                <a href="https://duaaiqbal.github.io/Marina_Fleet/index.html" target="_blank" class="project-link" aria-label="Live Demo">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" fill="currentColor"/>
+                        <path d="M10 16.5L16 12L10 7.5V16.5Z" fill="currentColor"/>
+                    </svg>
+                </a>
+                <a href="https://github.com/duaaiqbal/Marina_Fleet" target="_blank" class="project-link" aria-label="View Code">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" fill="currentColor"/>
+                        <path d="M8 16L12 12L8 8L9.41 6.59L14.83 12L9.41 17.41L8 16Z" fill="currentColor"/>
+                    </svg>
+                </a>
+            </div>
         </div>
     </div>
+</div>
+        </div>
+    </div>
+   
+     
 </section>
 <footer id="contact" class="footer-section">
     <div class="section-container">
